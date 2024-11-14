@@ -1,0 +1,31 @@
+{
+  "name": "typescript-regex",
+  "version": "1.0.0",
+  "description": "This Project create for a testing TypeScript with how to handle regular expressions",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "lint":"npx eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sasindu-intelleon/TypeScript-Regex.git"
+  },
+  "author": "Sasindu Malshan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sasindu-intelleon/TypeScript-Regex/issues"
+  },
+  "homepage": "https://github.com/sasindu-intelleon/TypeScript-Regex#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^22.9.0",
+    "eslint": "^9.14.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.14.0"
+  }
+}
